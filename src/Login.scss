@@ -1,0 +1,123 @@
+.text-r{
+    color: #fff;
+    margin-bottom: 7px;
+}
+.text-l{
+   
+    font-weight: 300;
+    
+}
+.outher{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    .logo{
+        margin-top: -100px;
+        .text-l{
+            font-size: 36px;
+        }
+    }
+}
+.wrapper{
+    margin-top: 40px;
+    width: 350px;
+    height: 250px;
+    
+    background: rgb(22, 27, 34);
+    border: 1px solid rgb(33, 38, 45);
+    border-radius: 8px;
+
+    padding: 20px 15px 20px 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.back{
+    .text-r{
+        cursor: pointer;
+    }
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    margin-top: -15px;
+    &:hover{
+        .text-r{
+        color:  #56cf6e;
+        }
+    }
+    
+}
+
+.input{
+    margin-bottom: 20px;
+    cursor: pointer;
+    input{
+        width: 94%;
+        color: #fff;
+        padding: 5px 12px 5px 12px;
+        height: 25px;
+        border-radius: 4px;
+        border: 1px solid rgb(33, 38, 45);
+        font-size: 16px;
+        
+        background: rgb(13, 17, 23);
+        outline: none;
+        &:hover {
+            // border: 1px solid darken(#d6d6d6, 16%);
+           
+            border: 1px solid darken(#0366d6, 16%);
+        }
+        &:focus {
+            border: 1px solid #0366d6;
+        }
+    }
+}
+
+.login-button{
+    margin-top: 15px;
+    
+    cursor: pointer;
+    background: #238636;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    height: 34px;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1px;
+
+    &:hover {
+        background: lighten($color: #238636, $amount: 4%);
+    }
+}
+
+.create-acc{
+    .text-l{
+        cursor: pointer;
+    }
+    display: flex;
+    // text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    &:hover{
+        .text-l{
+            text-decoration: underline;
+        }
+    }
+}
