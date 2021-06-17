@@ -1,0 +1,6 @@
+{
+    "serverPort": 5000,
+    "dbUrl": "mongodb+srv://Gonchar:123@aes.akfx4.mongodb.net/AES?retryWrites=true&w=majority",
+    "secretKey": "secret-key",
+    "ticketPath": "C:\\Users\\1657454\\Desktop\\Dev\\diplom\\server\\tickets"
+}
